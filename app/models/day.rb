@@ -1,6 +1,10 @@
 require 'paperclip'
 class Day < ActiveRecord::Base
   has_attached_file :lesson_plan
+
+  def unit
+    Unit.find(self.unit_id)
+  end
 end
 
 
