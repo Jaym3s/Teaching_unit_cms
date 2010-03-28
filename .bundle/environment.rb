@@ -143,8 +143,8 @@ end
 
 module Bundler
   LOCKED_BY    = '0.9.13'
-  FINGERPRINT  = "1ac392113a0ce54961d28e8115a8b21d79f0df37"
-  AUTOREQUIRES = {:default=>[["acts-as-taggable-on", false], ["aws-s3", false], ["haml", false], ["paperclip", false], ["rails", false], ["sqlite3-ruby", false], ["thin", false], ["will_paginate", false]]}
+  FINGERPRINT  = "f6174adc0533c9c9062eeb6e092bb8a27eb1da47"
+  AUTOREQUIRES = {:default=>[["acts-as-taggable-on", false], ["aws-s3", false], ["haml", false], ["paperclip", false], ["rails", false], ["rspec-rails", false], ["sqlite3-ruby", false], ["thin", false], ["will_paginate", false]]}
   SPECS        = [
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/rake-0.8.7/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/rake-0.8.7.gemspec", :name=>"rake"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/activesupport-2.3.5.gemspec", :name=>"activesupport"},
@@ -163,6 +163,8 @@ module Bundler
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/haml-2.2.22/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/haml-2.2.22.gemspec", :name=>"haml"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/paperclip-2.3.1.1/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/paperclip-2.3.1.1.gemspec", :name=>"paperclip"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/rails-2.3.5.gemspec", :name=>"rails"},
+        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/rspec-1.3.0/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/rspec-1.3.0.gemspec", :name=>"rspec"},
+        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/rspec-rails-1.3.2/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/rspec-rails-1.3.2.gemspec", :name=>"rspec-rails"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/sqlite3-ruby-1.2.5/lib", "/Library/Ruby/Gems/1.8/gems/sqlite3-ruby-1.2.5/ext"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/sqlite3-ruby-1.2.5.gemspec", :name=>"sqlite3-ruby"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/thin-1.2.7/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/thin-1.2.7.gemspec", :name=>"thin"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/will_paginate-2.3.12.gemspec", :name=>"will_paginate"},

@@ -9,3 +9,4 @@ gem "will_paginate"
 gem "haml"
 gem 'acts-as-taggable-on'
 gem "sqlite3-ruby"
+gem "rspec-rails"
