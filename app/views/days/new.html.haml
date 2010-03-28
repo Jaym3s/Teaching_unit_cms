@@ -1,0 +1,4 @@
+%h2 New day
+= render :partial => "form", :locals => {:day => @day}
+%ul
+  %li= link_to 'Back', days_path

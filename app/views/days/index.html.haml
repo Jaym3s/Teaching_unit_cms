@@ -1,0 +1,8 @@
+%h2 Listing days
+- if !@days.empty?
+  .days
+    = render :partial => "day", :collection => @days
+  = will_paginate(@days)
+- else
+  %p There are no days to show yet.
+= link_to 'New day', new_day_path

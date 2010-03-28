@@ -1,0 +1,1312 @@
+/!\ FAILSAFE /!\  Sat Mar 27 20:05:44 -0500 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:76:in `pre_process'
+    /Library/Ruby/Gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `catch'
+    /Library/Ruby/Gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `pre_process'
+    /Library/Ruby/Gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:57:in `process'
+    /Library/Ruby/Gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:42:in `receive_data'
+    /Library/Ruby/Gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+    /Library/Ruby/Gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+    /Library/Ruby/Gems/1.8/gems/thin-1.2.7/lib/thin/backends/base.rb:57:in `start'
+    /Library/Ruby/Gems/1.8/gems/thin-1.2.7/lib/thin/server.rb:156:in `start'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/thin.rb:14:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    script/server:3:in `require'
+    script/server:3
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUnits (20100328010102)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE TABLE "units" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "subject" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100328010102')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("units")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-27 20:07:02) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-27 20:24:45) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-27 20:24:50) [GET]
+
+ActionController::RoutingError (No route matches "/unit" with {:method=>:get}):
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UnitsController#index (for 127.0.0.1 at 2010-03-27 20:24:59) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `paginate' for #<Class:0x1033379e0>):
+  app/controllers/units_controller.rb:36:in `index'
+  haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (24.7ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UnitsController#index (for 127.0.0.1 at 2010-03-27 20:25:42) [GET]
+  [4;36;1mUnit Load (0.9ms)[0m   [0;1mSELECT * FROM "units" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering units/index
+Completed in 21ms (View: 17, DB: 1) | 200 OK [http://localhost/units]
+
+
+Processing UnitsController#new (for 127.0.0.1 at 2010-03-27 20:25:45) [GET]
+Rendering template within layouts/application
+Rendering units/new
+Rendered units/_form (72.9ms)
+Completed in 85ms (View: 82, DB: 0) | 200 OK [http://localhost/units/new]
+
+
+Processing UnitsController#index (for 127.0.0.1 at 2010-03-27 20:25:50) [GET]
+  [4;35;1mUnit Load (0.3ms)[0m   [0mSELECT * FROM "units" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering units/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/units]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUnits (20100328010102)
+Migrating to CreateDays (20100328012430)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "days" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "lesson_plan_file_name" varchar(255), "lesson_plan_content_type" varchar(255), "lesson_plan_file_size" integer, "lesson_plan_updated_at" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100328012430')[0m
+Migrating to ActsAsTaggableOnMigration (20100328012915)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCREATE TABLE "taggings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tag_id" integer, "taggable_id" integer, "tagger_id" integer, "tagger_type" varchar(255), "taggable_type" varchar(255), "context" varchar(255), "created_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCREATE INDEX "index_taggings_on_tag_id" ON "taggings" ("tag_id")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCREATE INDEX "index_taggings_on_taggable_id_and_taggable_type_and_context" ON "taggings" ("taggable_id", "taggable_type", "context")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100328012915')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("days")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("taggings")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_taggings_on_taggable_id_and_taggable_type_and_context')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_taggings_on_tag_id')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("tags")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("units")[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUnits (20100328010102)
+Migrating to CreateDays (20100328012430)
+Migrating to ActsAsTaggableOnMigration (20100328012915)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("days")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("taggings")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_taggings_on_taggable_id_and_taggable_type_and_context')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_taggings_on_tag_id')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("tags")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("units")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mCREATE TABLE "days" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "lesson_plan_file_name" varchar(255), "lesson_plan_content_type" varchar(255), "lesson_plan_file_size" integer, "lesson_plan_updated_at" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE TABLE "taggings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tag_id" integer, "taggable_id" integer, "tagger_id" integer, "tagger_type" varchar(255), "taggable_type" varchar(255), "context" varchar(255), "created_at" datetime) [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mCREATE INDEX "index_taggings_on_tag_id" ON "taggings" ("tag_id")[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE INDEX "index_taggings_on_taggable_id_and_taggable_type_and_context" ON "taggings" ("taggable_id", "taggable_type", "context")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mCREATE TABLE "units" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "subject" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20100328012915')[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20100328010102')[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20100328012430')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUnits (20100328010102)
+Migrating to CreateDays (20100328012430)
+Migrating to ActsAsTaggableOnMigration (20100328012915)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("days")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("taggings")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_taggings_on_taggable_id_and_taggable_type_and_context')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_taggings_on_tag_id')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("tags")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("units")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mCREATE TABLE "days" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "lesson_plan_file_name" varchar(255), "lesson_plan_content_type" varchar(255), "lesson_plan_file_size" integer, "lesson_plan_updated_at" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "taggings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tag_id" integer, "taggable_id" integer, "tagger_id" integer, "tagger_type" varchar(255), "taggable_type" varchar(255), "context" varchar(255), "created_at" datetime) [0m
+  [4;35;1mSQL (1.1ms)[0m   [0mCREATE INDEX "index_taggings_on_tag_id" ON "taggings" ("tag_id")[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE INDEX "index_taggings_on_taggable_id_and_taggable_type_and_context" ON "taggings" ("taggable_id", "taggable_type", "context")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "units" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "subject" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20100328012915')[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20100328010102')[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20100328012430')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUnits (20100328010102)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE TABLE "units" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "subject" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100328010102')[0m
+Migrating to ActsAsTaggableOnMigration (20100328012915)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCREATE TABLE "taggings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tag_id" integer, "taggable_id" integer, "tagger_id" integer, "tagger_type" varchar(255), "taggable_type" varchar(255), "context" varchar(255), "created_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCREATE INDEX "index_taggings_on_tag_id" ON "taggings" ("tag_id")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCREATE INDEX "index_taggings_on_taggable_id_and_taggable_type_and_context" ON "taggings" ("taggable_id", "taggable_type", "context")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100328012915')[0m
+Migrating to CreateDays (20100328013705)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "days" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "lesson_plan_file_name" varchar(255), "lesson_plan_content_type" varchar(255), "lesson_plan_file_size" integer, "lesson_plan_updated_at" datetime, "unit_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100328013705')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("days")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("taggings")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_taggings_on_taggable_id_and_taggable_type_and_context')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_taggings_on_tag_id')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("tags")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("units")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mCREATE TABLE "days" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "lesson_plan_file_name" varchar(255), "lesson_plan_content_type" varchar(255), "lesson_plan_file_size" integer, "lesson_plan_updated_at" datetime, "unit_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE TABLE "taggings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tag_id" integer, "taggable_id" integer, "tagger_id" integer, "tagger_type" varchar(255), "taggable_type" varchar(255), "context" varchar(255), "created_at" datetime) [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mCREATE INDEX "index_taggings_on_tag_id" ON "taggings" ("tag_id")[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE INDEX "index_taggings_on_taggable_id_and_taggable_type_and_context" ON "taggings" ("taggable_id", "taggable_type", "context")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE TABLE "units" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "subject" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20100328013705')[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20100328010102')[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20100328012915')[0m
+
+
+Processing DaysController#index (for 127.0.0.1 at 2010-03-27 20:37:49) [GET]
+  [4;36;1mDay Load (0.4ms)[0m   [0;1mSELECT * FROM "days" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering days/index
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/days]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-03-27 20:37:51) [GET]
+Rendering template within layouts/application
+Rendering days/new
+Rendered days/_form (117.1ms)
+Completed in 130ms (View: 126, DB: 0) | 200 OK [http://localhost/days/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-27 20:45:48) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-27 20:45:55) [GET]
+
+ActionController::RoutingError (No route matches "/unit" with {:method=>:get}):
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UnitsController#index (for 127.0.0.1 at 2010-03-27 20:46:00) [GET]
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `acts_as_taggable_on' for #<Class:0x103182f50>):
+  app/models/unit.rb:2
+  app/controllers/units_controller.rb:36:in `index'
+  haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (92.8ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UnitsController#index (for 127.0.0.1 at 2010-03-27 20:46:46) [GET]
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `acts_as_taggable_on' for #<Class:0x103315de0>):
+  app/models/unit.rb:2
+  app/controllers/units_controller.rb:36:in `index'
+  haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (29.2ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UnitsController#index (for 127.0.0.1 at 2010-03-27 20:46:47) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `acts_as_taggable_on' for #<Class:0x103023600>):
+  app/models/unit.rb:2
+  app/controllers/units_controller.rb:36:in `index'
+  haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (30.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUnits (20100328010102)
+Migrating to ActsAsTaggableOnMigration (20100328012915)
+Migrating to CreateDays (20100328013705)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("days")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("taggings")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_taggings_on_taggable_id_and_taggable_type_and_context')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_taggings_on_tag_id')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("tags")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("units")[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing UnitsController#index (for 127.0.0.1 at 2010-03-27 20:49:57) [GET]
+  [4;36;1mUnit Load (0.4ms)[0m   [0;1mSELECT * FROM "units" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering units/index
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/units]
+
+
+Processing UnitsController#new (for 127.0.0.1 at 2010-03-27 20:49:59) [GET]
+Rendering template within layouts/application
+Rendering units/new
+Rendered units/_form (70.1ms)
+Completed in 82ms (View: 78, DB: 0) | 200 OK [http://localhost/units/new]
+
+
+Processing UnitsController#create (for 127.0.0.1 at 2010-03-27 20:50:04) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"xsFL7TIJhHubl6lsmS3nS/TEpH/aDuUYNgO+MMlkqo4=", "unit"=>{"title"=>"first unit!", "subject"=>"", "description"=>""}}
+  [4;35;1mUnit Create (0.3ms)[0m   [0mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 01:50:04', 'first unit!', '2010-03-28 01:50:04', '', '')[0m
+Redirected to http://localhost:3000/units/1
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/units]
+
+
+Processing UnitsController#show (for 127.0.0.1 at 2010-03-27 20:50:04) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering units/show
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/units/1]
+
+
+Processing UnitsController#index (for 127.0.0.1 at 2010-03-27 20:50:07) [GET]
+  [4;35;1mUnit Load (0.4ms)[0m   [0mSELECT * FROM "units" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering units/index
+Rendered units/_unit (4.7ms)
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/units]
+
+
+Processing DaysController#index (for 127.0.0.1 at 2010-03-27 20:50:11) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `has_attached_file' for #<Class:0x1032cc5c8>):
+  app/models/day.rb:2
+  app/controllers/days_controller.rb:36:in `index'
+  haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (92.4ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+/!\ FAILSAFE /!\  Sat Mar 27 20:51:47 -0500 2010
+  Status: 500 Internal Server Error
+  uninitialized constant Encoding
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:443:in `load_missing_constant'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+    /Users/jaymes/.bundle/ruby/1.8/gems/sqlite3-0.0.8/lib/sqlite3/encoding.rb:9:in `find'
+    /Users/jaymes/.bundle/ruby/1.8/gems/sqlite3-0.0.8/lib/sqlite3/database.rb:66:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:76:in `pre_process'
+    /Library/Ruby/Gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `catch'
+    /Library/Ruby/Gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `pre_process'
+    /Library/Ruby/Gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:57:in `process'
+    /Library/Ruby/Gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:42:in `receive_data'
+    /Library/Ruby/Gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+    /Library/Ruby/Gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+    /Library/Ruby/Gems/1.8/gems/thin-1.2.7/lib/thin/backends/base.rb:57:in `start'
+    /Library/Ruby/Gems/1.8/gems/thin-1.2.7/lib/thin/server.rb:156:in `start'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/thin.rb:14:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    script/server:3:in `require'
+    script/server:3
+
+
+Processing DaysController#index (for 127.0.0.1 at 2010-03-27 20:54:31) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `has_attached_file' for Day(Table doesn't exist):Class):
+  app/models/day.rb:2
+  app/controllers/days_controller.rb:36:in `index'
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (28.5ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUnits (20100328010102)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE TABLE "units" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "subject" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100328010102')[0m
+Migrating to ActsAsTaggableOnMigration (20100328012915)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCREATE TABLE "taggings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tag_id" integer, "taggable_id" integer, "tagger_id" integer, "tagger_type" varchar(255), "taggable_type" varchar(255), "context" varchar(255), "created_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCREATE INDEX "index_taggings_on_tag_id" ON "taggings" ("tag_id")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCREATE INDEX "index_taggings_on_taggable_id_and_taggable_type_and_context" ON "taggings" ("taggable_id", "taggable_type", "context")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100328012915')[0m
+Migrating to CreateDays (20100328013705)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "days" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "lesson_plan_file_name" varchar(255), "lesson_plan_content_type" varchar(255), "lesson_plan_file_size" integer, "lesson_plan_updated_at" datetime, "unit_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100328013705')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("days")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("taggings")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_taggings_on_taggable_id_and_taggable_type_and_context')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_taggings_on_tag_id')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("tags")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("units")[0m
+
+
+Processing DaysController#index (for 127.0.0.1 at 2010-03-27 20:58:40) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `has_attached_file' for #<Class:0x1032b7e70>):
+  app/models/day.rb:2
+  app/controllers/days_controller.rb:36:in `index'
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (28.6ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-27 20:59:02) [GET]
+
+ActionController::RoutingError (No route matches "/day" with {:method=>:get}):
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-27 20:59:05) [GET]
+
+ActionController::RoutingError (No route matches "/day/1" with {:method=>:get}):
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DaysController#index (for 127.0.0.1 at 2010-03-27 20:59:09) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `has_attached_file' for #<Class:0x103539130>):
+  app/models/day.rb:2
+  app/controllers/days_controller.rb:36:in `index'
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (28.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-03-27 20:59:12) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `has_attached_file' for #<Class:0x10323de90>):
+  app/models/day.rb:2
+  app/controllers/days_controller.rb:47:in `new'
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (29.6ms)
+Rendered rescues/_request_and_response (61.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-03-27 21:00:01) [GET]
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" [0m
+
+ActionView::TemplateError (undefined method `merge' for []:Array) on line #18 of app/views/days/_form.html.haml:
+15:   %p
+16:     = f.label :unit_id
+17:     %br
+18:     = f.select("unit", :unit_id, Unit.all.collect {|u| [u.title, u.id]})
+19:   %p
+20:     = f.submit "Submit"
+
+    app/views/days/_form.html.haml:18:in `_run_haml_app47views47days47_form46html46haml_locals_day_form_object'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:203:in `call'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:203:in `form_for'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:573:in `call'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:573:in `haml_bind_proc'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:209:in `form_for'
+    app/views/days/_form.html.haml:1:in `_run_haml_app47views47days47_form46html46haml_locals_day_form_object'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/days/new.html.haml:2:in `_run_haml_app47views47days47new46html46haml'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/days_controller.rb:48:in `new'
+    haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+    thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+    thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+    thin (1.2.7) lib/thin/connection.rb:57:in `process'
+    thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+    eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+    eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+    thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+    thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (103.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DaysController#index (for 127.0.0.1 at 2010-03-27 21:00:25) [GET]
+  [4;35;1mDay Load (0.4ms)[0m   [0mSELECT * FROM "days" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering days/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/days]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-03-27 21:00:26) [GET]
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mUnit Load (0.1ms)[0m   [0;1mSELECT * FROM "units" [0m
+
+ActionView::TemplateError (undefined method `merge' for []:Array) on line #18 of app/views/days/_form.html.haml:
+15:   %p
+16:     = f.label :unit_id
+17:     %br
+18:     = f.select("unit", :unit_id, Unit.all.collect {|u| [u.title, u.id]})
+19:   %p
+20:     = f.submit "Submit"
+
+    app/views/days/_form.html.haml:18:in `_run_haml_app47views47days47_form46html46haml_locals_day_form_object'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:203:in `call'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:203:in `form_for'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:573:in `call'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:573:in `haml_bind_proc'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:209:in `form_for'
+    app/views/days/_form.html.haml:1:in `_run_haml_app47views47days47_form46html46haml_locals_day_form_object'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/days/new.html.haml:2:in `_run_haml_app47views47days47new46html46haml'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/days_controller.rb:48:in `new'
+    haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+    thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+    thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+    thin (1.2.7) lib/thin/connection.rb:57:in `process'
+    thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+    eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+    eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+    thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+    thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (105.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-03-27 21:01:35) [GET]
+
+NameError (uninitialized constant DaysController::Units):
+  app/controllers/days_controller.rb:47:in `new'
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (24.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-03-27 21:01:43) [GET]
+
+NameError (uninitialized constant DaysController::Units):
+  app/controllers/days_controller.rb:47:in `new'
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (86.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-03-27 21:02:24) [GET]
+  [4;35;1mUnit Load (0.3ms)[0m   [0mSELECT * FROM "units" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "units" [0m
+
+ActionView::TemplateError (undefined method `merge' for []:Array) on line #18 of app/views/days/_form.html.haml:
+15:   %p
+16:     = f.label :unit_id
+17:     %br
+18:     = f.select("unit", :unit_id, Unit.all.collect {|u| [u.title, u.id]})
+19:   %p
+20:     = f.submit "Submit"
+
+    app/views/days/_form.html.haml:18:in `_run_haml_app47views47days47_form46html46haml_locals_day_form_object'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:203:in `call'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:203:in `form_for'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:573:in `call'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:573:in `haml_bind_proc'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:209:in `form_for'
+    app/views/days/_form.html.haml:1:in `_run_haml_app47views47days47_form46html46haml_locals_day_form_object'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/days/new.html.haml:2:in `_run_haml_app47views47days47new46html46haml'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/days_controller.rb:49:in `new'
+    haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+    thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+    thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+    thin (1.2.7) lib/thin/connection.rb:57:in `process'
+    thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+    eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+    eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+    thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+    thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (44.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-03-27 21:02:56) [GET]
+  [4;35;1mUnit Load (0.3ms)[0m   [0mSELECT * FROM "units" [0m
+Rendering template within layouts/application
+Rendering days/new
+
+ActionView::TemplateError (undefined method `merge' for []:Array) on line #18 of app/views/days/_form.html.haml:
+15:   %p
+16:     = f.label :unit_id
+17:     %br
+18:     = f.select("unit", :unit_id, @units.collect {|u| [u.title, u.id]})
+19:   %p
+20:     = f.submit "Submit"
+
+    app/views/days/_form.html.haml:18:in `_run_haml_app47views47days47_form46html46haml_locals_day_form_object'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:203:in `call'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:203:in `form_for'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:573:in `call'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:573:in `haml_bind_proc'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:209:in `form_for'
+    app/views/days/_form.html.haml:1:in `_run_haml_app47views47days47_form46html46haml_locals_day_form_object'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/days/new.html.haml:2:in `_run_haml_app47views47days47new46html46haml'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/days_controller.rb:49:in `new'
+    haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+    thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+    thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+    thin (1.2.7) lib/thin/connection.rb:57:in `process'
+    thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+    eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+    eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+    thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+    thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (46.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-03-27 21:03:04) [GET]
+  [4;36;1mUnit Load (0.3ms)[0m   [0;1mSELECT * FROM "units" [0m
+Rendering template within layouts/application
+Rendering days/new
+
+ActionView::TemplateError (undefined method `merge' for []:Array) on line #18 of app/views/days/_form.html.haml:
+15:   %p
+16:     = f.label :unit_id
+17:     %br
+18:     = f.select("unit", :unit_id, @units)
+19:   %p
+20:     = f.submit "Submit"
+
+    app/views/days/_form.html.haml:18:in `_run_haml_app47views47days47_form46html46haml_locals_day_form_object'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:203:in `call'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:203:in `form_for'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:573:in `call'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:573:in `haml_bind_proc'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:209:in `form_for'
+    app/views/days/_form.html.haml:1:in `_run_haml_app47views47days47_form46html46haml_locals_day_form_object'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/days/new.html.haml:2:in `_run_haml_app47views47days47new46html46haml'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/days_controller.rb:49:in `new'
+    haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+    thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+    thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+    thin (1.2.7) lib/thin/connection.rb:57:in `process'
+    thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+    eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+    eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+    thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+    thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (45.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-03-27 21:04:28) [GET]
+  [4;35;1mUnit Load (0.3ms)[0m   [0mSELECT * FROM "units" [0m
+Rendering template within layouts/application
+Rendering days/new
+
+ActionView::TemplateError (undefined method `merge' for []:Array) on line #18 of app/views/days/_form.html.haml:
+15:   %p
+16:     = f.label :unit_id
+17:     %br
+18:     = f.select(day, :unit_id, @units)
+19:   %p
+20:     = f.submit "Submit"
+
+    app/views/days/_form.html.haml:18:in `_run_haml_app47views47days47_form46html46haml_locals_day_form_object'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:203:in `call'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:203:in `form_for'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:573:in `call'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:573:in `haml_bind_proc'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:209:in `form_for'
+    app/views/days/_form.html.haml:1:in `_run_haml_app47views47days47_form46html46haml_locals_day_form_object'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) rails/./lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/days/new.html.haml:2:in `_run_haml_app47views47days47new46html46haml'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/days_controller.rb:49:in `new'
+    haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+    thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+    thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+    thin (1.2.7) lib/thin/connection.rb:57:in `process'
+    thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+    eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+    eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+    thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+    thin (1.2.7) lib/thin/server.rb:156:in `start'
+
+Rendered rescues/_trace (46.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-03-27 21:05:47) [GET]
+  [4;36;1mUnit Load (0.3ms)[0m   [0;1mSELECT * FROM "units" [0m
+Rendering template within layouts/application
+Rendering days/new
+Rendered days/_form (5.6ms)
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/days/new]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-03-27 21:06:10) [GET]
+  [4;35;1mUnit Load (0.3ms)[0m   [0mSELECT * FROM "units" [0m
+Rendering template within layouts/application
+Rendering days/new
+Rendered days/_form (5.7ms)
+Completed in 80ms (View: 74, DB: 0) | 200 OK [http://localhost/days/new]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-03-27 21:07:12) [GET]
+  [4;36;1mUnit Load (0.3ms)[0m   [0;1mSELECT * FROM "units" [0m
+Rendering template within layouts/application
+Rendering days/new
+Rendered days/_form (5.8ms)
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/days/new]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-03-27 21:07:36) [GET]
+  [4;35;1mUnit Load (0.3ms)[0m   [0mSELECT * FROM "units" [0m
+Rendering template within layouts/application
+Rendering days/new
+Rendered days/_form (3.3ms)
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/days/new]
+
+
+Processing DaysController#index (for 127.0.0.1 at 2010-03-27 21:07:55) [GET]
+  [4;36;1mDay Load (0.3ms)[0m   [0;1mSELECT * FROM "days" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering days/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/days]
+
+
+Processing UnitsController#index (for 127.0.0.1 at 2010-03-27 21:08:01) [GET]
+  [4;35;1mUnit Load (0.3ms)[0m   [0mSELECT * FROM "units" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering units/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/units]
+
+
+Processing UnitsController#new (for 127.0.0.1 at 2010-03-27 21:08:02) [GET]
+Rendering template within layouts/application
+Rendering units/new
+Rendered units/_form (4.4ms)
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/units/new]
+
+
+Processing UnitsController#create (for 127.0.0.1 at 2010-03-27 21:08:08) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"xsFL7TIJhHubl6lsmS3nS/TEpH/aDuUYNgO+MMlkqo4=", "unit"=>{"title"=>"first unit", "subject"=>"", "description"=>""}}
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 02:08:08', 'first unit', '2010-03-28 02:08:08', '', '')[0m
+Redirected to http://localhost:3000/units/1
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/units]
+
+
+Processing UnitsController#show (for 127.0.0.1 at 2010-03-27 21:08:08) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUnit Load (0.2ms)[0m   [0mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering units/show
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/units/1]
+
+
+Processing UnitsController#index (for 127.0.0.1 at 2010-03-27 21:08:10) [GET]
+  [4;36;1mUnit Load (0.4ms)[0m   [0;1mSELECT * FROM "units" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering units/index
+Rendered units/_unit (4.3ms)
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/units]
+
+
+Processing DaysController#index (for 127.0.0.1 at 2010-03-27 21:08:15) [GET]
+  [4;35;1mDay Load (0.3ms)[0m   [0mSELECT * FROM "days" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering days/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/days]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-03-27 21:08:16) [GET]
+  [4;36;1mUnit Load (0.4ms)[0m   [0;1mSELECT * FROM "units" [0m
+Rendering template within layouts/application
+Rendering days/new
+Rendered days/_form (4.8ms)
+Completed in 72ms (View: 7, DB: 0) | 200 OK [http://localhost/days/new]
+
+
+Processing DaysController#create (for 127.0.0.1 at 2010-03-27 21:08:26) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"xsFL7TIJhHubl6lsmS3nS/TEpH/aDuUYNgO+MMlkqo4=", "day"=>{"unit_id"=>"1", "title"=>"first day!", "description"=>""}}
+  [4;35;1mDay Create (0.3ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 02:08:26', 'first day!', NULL, 1, '2010-03-28 02:08:26', NULL, '', NULL)[0m
+[paperclip] Saving attachments.
+Redirected to http://localhost:3000/days/1
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/days]
+
+
+Processing DaysController#show (for 127.0.0.1 at 2010-03-27 21:08:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mDay Load (0.2ms)[0m   [0;1mSELECT * FROM "days" WHERE ("days"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering days/show
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/days/1]

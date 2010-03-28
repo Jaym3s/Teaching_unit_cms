@@ -1,0 +1,26 @@
+- content_tag_for :div, day do
+  %ul
+    %li
+      %strong Title:
+      =h day.title
+    %li
+      %strong Description:
+      =h day.description
+    %li
+      %strong Lesson plan file name:
+      =h day.lesson_plan_file_name
+    %li
+      %strong Lesson plan content type:
+      =h day.lesson_plan_content_type
+    %li
+      %strong Lesson plan file size:
+      =h day.lesson_plan_file_size
+    %li
+      %strong Lesson plan updated at:
+      =h day.lesson_plan_updated_at
+    %li
+      %strong Unit:
+      =h day.unit_id
+    = link_to 'Show', day
+    = link_to 'Edit', edit_day_path(day)
+    = link_to 'Destroy', day, :confirm => 'Are you sure?', :method => :delete

@@ -1,0 +1,6 @@
+%h2 Editing day
+= render :partial => "form", :locals => {:day => @day}
+%ul
+  %li= link_to 'Show', @day
+  %li= link_to 'Back', days_path
+  %li= link_to 'Destroy', @day, :confirm => 'Are you sure?', :method => :delete  

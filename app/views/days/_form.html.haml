@@ -1,0 +1,20 @@
+- form_for(day) do |f|
+  = f.error_messages
+  %p
+    = f.label :title
+    %br
+    = f.text_field :title
+  %p
+    = f.label :description
+    %br
+    = f.text_area :description
+  %p
+    = f.label :lesson_plan
+    %br
+    = f.file_field :lesson_plan
+  %p
+    = f.label :unit_id
+    %br
+    = f.select(:unit_id, @units.collect {|u| [u.title, u.id]})
+  %p
+    = f.submit "Submit"
