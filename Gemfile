@@ -9,3 +9,5 @@ gem "will_paginate"
 gem "haml"
 gem "sqlite3-ruby"
 gem "rspec-rails"
+gem 'cucumber'
+gem 'cucumber-rails'

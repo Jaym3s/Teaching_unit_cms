@@ -143,8 +143,8 @@ end
 
 module Bundler
   LOCKED_BY    = '0.9.13'
-  FINGERPRINT  = "f6174adc0533c9c9062eeb6e092bb8a27eb1da47"
-  AUTOREQUIRES = {:default=>[["acts-as-taggable-on", false], ["aws-s3", false], ["haml", false], ["paperclip", false], ["rails", false], ["rspec-rails", false], ["sqlite3-ruby", false], ["thin", false], ["will_paginate", false]]}
+  FINGERPRINT  = "3029d353628633739e8b44ec2cfcf925459b7be8"
+  AUTOREQUIRES = {:default=>[["aws-s3", false], ["cucumber", false], ["cucumber-rails", false], ["haml", false], ["paperclip", false], ["rails", false], ["rspec-rails", false], ["sqlite3-ruby", false], ["thin", false], ["will_paginate", false]]}
   SPECS        = [
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/rake-0.8.7/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/rake-0.8.7.gemspec", :name=>"rake"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/activesupport-2.3.5.gemspec", :name=>"activesupport"},
@@ -153,11 +153,17 @@ module Bundler
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/actionmailer-2.3.5/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/actionmailer-2.3.5.gemspec", :name=>"actionmailer"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/activerecord-2.3.5.gemspec", :name=>"activerecord"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/activeresource-2.3.5/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/activeresource-2.3.5.gemspec", :name=>"activeresource"},
-        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/acts-as-taggable-on-1.1.9/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/acts-as-taggable-on-1.1.9.gemspec", :name=>"acts-as-taggable-on"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/builder-2.1.2/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/builder-2.1.2.gemspec", :name=>"builder"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/mime-types-1.16/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/mime-types-1.16.gemspec", :name=>"mime-types"},
         {:load_paths=>["/Users/jaymes/.bundle/ruby/1.8/gems/xml-simple-1.0.12/lib"], :loaded_from=>"/Users/jaymes/.bundle/ruby/1.8/specifications/xml-simple-1.0.12.gemspec", :name=>"xml-simple"},
         {:load_paths=>["/Users/jaymes/.bundle/ruby/1.8/gems/aws-s3-0.6.2/lib"], :loaded_from=>"/Users/jaymes/.bundle/ruby/1.8/specifications/aws-s3-0.6.2.gemspec", :name=>"aws-s3"},
+        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/diff-lcs-1.1.2/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/diff-lcs-1.1.2.gemspec", :name=>"diff-lcs"},
+        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/json_pure-1.2.3/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/json_pure-1.2.3.gemspec", :name=>"json_pure"},
+        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/polyglot-0.3.1/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/polyglot-0.3.1.gemspec", :name=>"polyglot"},
+        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/term-ansicolor-1.0.5/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/term-ansicolor-1.0.5.gemspec", :name=>"term-ansicolor"},
+        {:load_paths=>["/Users/jaymes/.bundle/ruby/1.8/gems/treetop-1.4.5/lib"], :loaded_from=>"/Users/jaymes/.bundle/ruby/1.8/specifications/treetop-1.4.5.gemspec", :name=>"treetop"},
+        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/cucumber-0.6.4/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/cucumber-0.6.4.gemspec", :name=>"cucumber"},
+        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/cucumber-rails-0.3.0/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/cucumber-rails-0.3.0.gemspec", :name=>"cucumber-rails"},
         {:load_paths=>["/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib"], :loaded_from=>"/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/specifications/daemons-1.0.10.gemspec", :name=>"daemons"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/eventmachine-0.12.10/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/eventmachine-0.12.10.gemspec", :name=>"eventmachine"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/haml-2.2.22/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/haml-2.2.22.gemspec", :name=>"haml"},

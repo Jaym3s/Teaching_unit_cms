@@ -27,17 +27,13 @@
       #wrapper.wat-cf
         .flash
           - flash.each do |type, message|
-          %div{ :class => "message #{type}" }
-            %p
-              = message
-          - end
+            .message.type
+              %p= message
         #main
           = yield
-          #footer
-            .block
-              %p
-                Copyright &copy;
-                = Time.now.year
-                Your Site.
+        #footer.block
+          %p
+            Copyright &copy;
+            = Time.now.year
         #sidebar
           = yield :sidebar

@@ -10,23 +10,5 @@ require 'spec_helper'
 #  updated_at  :datetime
 
 describe Unit do
-  before(:each) do
-    @valid_attributes = {
-      
-    }
-  end
 
-  it "should create a new instance given valid attributes" do
-    Unit.create!(@valid_attributes)
-  end
 end
-
-# == Schema Info
-#
-# Table name: units
-#
-#  id          :integer         not null, primary ke
-#  description :text
-#  title       :string(255)
-#  created_at  :datetime
-#  updated_at  :datetime
