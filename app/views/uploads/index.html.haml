@@ -1,0 +1,8 @@
+%h2 Listing uploads
+- if !@uploads.empty?
+  .uploads
+    = render :partial => "upload", :collection => @uploads
+  = will_paginate(@uploads)
+- else
+  %p There are no uploads to show yet.
+= link_to 'New upload', new_upload_path

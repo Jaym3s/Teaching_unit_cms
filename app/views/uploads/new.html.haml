@@ -1,0 +1,4 @@
+%h2 New upload
+= render :partial => "form", :locals => {:upload => @upload}
+%ul
+  %li= link_to 'Back', uploads_path

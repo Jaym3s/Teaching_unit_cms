@@ -20,7 +20,7 @@
       =h day.lesson_plan_updated_at
     %li
       %strong Unit:
-      =h day.unit_id
+      =h day.unit.title
     = link_to 'Show', day
     = link_to 'Edit', edit_day_path(day)
     = link_to 'Destroy', day, :confirm => 'Are you sure?', :method => :delete

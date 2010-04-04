@@ -1,8 +1,11 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :uploads
+
   map.resources :days
 
   map.resources :units
 
+  map.root :controller => 'application'
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

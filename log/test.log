@@ -1894,3 +1894,368 @@ Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/days/37]
   [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 02:48:03', NULL, NULL, 1, '2010-03-28 02:48:03', NULL, NULL, NULL)[0m
 [paperclip] Saving attachments.
   [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;36;1mUpload Create (0.3ms)[0m   [0;1mINSERT INTO "uploads" ("created_at", "lesson_id", "updated_at", "upload_file_name", "upload_file_size", "upload_content_type", "upload_updated_at") VALUES('2010-03-28 02:58:36', NULL, '2010-03-28 02:58:36', NULL, NULL, NULL, NULL)[0m
+  [4;35;1mLesson Create (0.3ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 02:58:36', NULL, '2010-03-28 02:58:36', NULL)[0m
+  [4;36;1mUpload Create (0.1ms)[0m   [0;1mINSERT INTO "uploads" ("created_at", "lesson_id", "updated_at", "upload_file_name", "upload_file_size", "upload_content_type", "upload_updated_at") VALUES('2010-03-28 02:58:36', 1, '2010-03-28 02:58:36', NULL, NULL, NULL, NULL)[0m
+  [4;36;1mUpload Create (0.3ms)[0m   [0;1mINSERT INTO "uploads" ("created_at", "lesson_id", "updated_at", "upload_file_name", "upload_file_size", "upload_content_type", "upload_updated_at") VALUES('2010-03-28 02:58:53', NULL, '2010-03-28 02:58:53', NULL, NULL, NULL, NULL)[0m
+  [4;35;1mLesson Create (0.3ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 02:58:53', NULL, '2010-03-28 02:58:53', NULL)[0m
+  [4;36;1mUpload Create (0.1ms)[0m   [0;1mINSERT INTO "uploads" ("created_at", "lesson_id", "updated_at", "upload_file_name", "upload_file_size", "upload_content_type", "upload_updated_at") VALUES('2010-03-28 02:58:53', 1, '2010-03-28 02:58:53', NULL, NULL, NULL, NULL)[0m
+  [4;36;1mUpload Create (0.3ms)[0m   [0;1mINSERT INTO "uploads" ("created_at", "lesson_id", "updated_at", "upload_file_name", "upload_file_size", "upload_content_type", "upload_updated_at") VALUES('2010-03-28 02:59:18', NULL, '2010-03-28 02:59:18', NULL, NULL, NULL, NULL)[0m
+  [4;35;1mLesson Create (0.3ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 02:59:18', NULL, '2010-03-28 02:59:18', NULL)[0m
+  [4;36;1mUpload Create (0.1ms)[0m   [0;1mINSERT INTO "uploads" ("created_at", "lesson_id", "updated_at", "upload_file_name", "upload_file_size", "upload_content_type", "upload_updated_at") VALUES('2010-03-28 02:59:18', 1, '2010-03-28 02:59:18', NULL, NULL, NULL, NULL)[0m
+  [4;35;1mLesson Load (0.2ms)[0m   [0mSELECT * FROM "lessons" WHERE ("lessons"."id" = 1) [0m
+  [4;36;1mDay Create (0.4ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:01:16', 'asdf', NULL, 1, '2010-03-28 03:01:16', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 03:01:16', NULL, '2010-03-28 03:01:16', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:01:16', NULL, NULL, 1, '2010-03-28 03:01:16', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.3ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 03:01:16', NULL, '2010-03-28 03:01:16', NULL)[0m
+  [4;36;1mDay Create (0.3ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:42:12', 'asdf', NULL, 1, '2010-03-28 03:42:12', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 03:42:12', NULL, '2010-03-28 03:42:12', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:42:12', NULL, NULL, 1, '2010-03-28 03:42:12', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.3ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 03:42:12', NULL, '2010-03-28 03:42:12', NULL)[0m
+  [4;36;1mDay Create (0.3ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:42:28', 'asdf', NULL, 1, '2010-03-28 03:42:28', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 03:42:28', NULL, '2010-03-28 03:42:28', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:42:28', NULL, NULL, 1, '2010-03-28 03:42:28', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.2ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 03:42:28', NULL, '2010-03-28 03:42:28', NULL)[0m
+  [4;36;1mDay Create (0.3ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:42:42', 'asdf', NULL, 1, '2010-03-28 03:42:42', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 03:42:42', NULL, '2010-03-28 03:42:42', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:42:42', NULL, NULL, 1, '2010-03-28 03:42:42', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.2ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 03:42:42', NULL, '2010-03-28 03:42:42', NULL)[0m
+  [4;36;1mDay Create (0.1ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:42:42', NULL, NULL, NULL, '2010-03-28 03:42:42', NULL, NULL, NULL)[0m
+  [4;36;1mDay Create (0.3ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:43:38', 'asdf', NULL, 1, '2010-03-28 03:43:38', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 03:43:38', NULL, '2010-03-28 03:43:38', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:43:38', NULL, NULL, 1, '2010-03-28 03:43:38', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.3ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 03:43:38', NULL, '2010-03-28 03:43:38', NULL)[0m
+  [4;36;1mDay Create (0.3ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:44:05', 'asdf', NULL, 1, '2010-03-28 03:44:05', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 03:44:05', NULL, '2010-03-28 03:44:05', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:44:05', NULL, NULL, 1, '2010-03-28 03:44:05', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.2ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 03:44:05', NULL, '2010-03-28 03:44:05', NULL)[0m
+  [4;36;1mDay Create (0.6ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:44:16', 'asdf', NULL, 1, '2010-03-28 03:44:16', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 03:44:16', NULL, '2010-03-28 03:44:16', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:44:16', NULL, NULL, 1, '2010-03-28 03:44:16', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.2ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 03:44:16', NULL, '2010-03-28 03:44:16', NULL)[0m
+  [4;36;1mDay Create (0.3ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:44:24', 'asdf', NULL, 1, '2010-03-28 03:44:24', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 03:44:24', NULL, '2010-03-28 03:44:24', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:44:24', NULL, NULL, 1, '2010-03-28 03:44:24', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.2ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 03:44:24', NULL, '2010-03-28 03:44:24', NULL)[0m
+  [4;36;1mDay Create (0.3ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:46:52', 'asdf', NULL, 1, '2010-03-28 03:46:52', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 03:46:52', NULL, '2010-03-28 03:46:52', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:46:52', NULL, NULL, 1, '2010-03-28 03:46:52', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.2ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 03:46:52', NULL, '2010-03-28 03:46:52', NULL)[0m
+  [4;36;1mDay Create (50.3ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:47:27', 'asdf', NULL, 1, '2010-03-28 03:47:27', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.3ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 03:47:27', NULL, '2010-03-28 03:47:27', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:47:27', NULL, NULL, 1, '2010-03-28 03:47:27', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.3ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.2ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 03:47:27', NULL, '2010-03-28 03:47:27', NULL)[0m
+  [4;36;1mDay Create (0.3ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:47:38', 'asdf', NULL, 1, '2010-03-28 03:47:38', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 03:47:38', NULL, '2010-03-28 03:47:38', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 03:47:38', NULL, NULL, 1, '2010-03-28 03:47:38', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.3ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 03:47:38', NULL, '2010-03-28 03:47:38', NULL)[0m
+  [4;36;1mUpload Create (0.7ms)[0m   [0;1mINSERT INTO "uploads" ("created_at", "lesson_id", "updated_at", "upload_file_name", "upload_file_size", "upload_content_type", "upload_updated_at") VALUES('2010-03-28 17:27:33', NULL, '2010-03-28 17:27:33', NULL, NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mLesson Create (0.5ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 17:27:33', NULL, '2010-03-28 17:27:33', NULL)[0m
+  [4;36;1mUpload Create (0.1ms)[0m   [0;1mINSERT INTO "uploads" ("created_at", "lesson_id", "updated_at", "upload_file_name", "upload_file_size", "upload_content_type", "upload_updated_at") VALUES('2010-03-28 17:27:33', 1, '2010-03-28 17:27:33', NULL, NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mLesson Load (0.2ms)[0m   [0mSELECT * FROM "lessons" WHERE ("lessons"."id" = 1) [0m
+  [4;36;1mLesson Create (0.3ms)[0m   [0;1mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 17:27:41', NULL, '2010-03-28 17:27:41', NULL)[0m
+  [4;36;1mDay Create (0.6ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:27:48', 'asdf', NULL, 1, '2010-03-28 17:27:48', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.6ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 17:27:48', NULL, '2010-03-28 17:27:48', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:27:48', NULL, NULL, 1, '2010-03-28 17:27:48', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.2ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 17:27:48', NULL, '2010-03-28 17:27:48', NULL)[0m
+  [4;36;1mDay Create (0.3ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:28:11', 'asdf', NULL, 1, '2010-03-28 17:28:11', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 17:28:11', NULL, '2010-03-28 17:28:11', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:28:11', NULL, NULL, 1, '2010-03-28 17:28:11', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.2ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 17:28:11', NULL, '2010-03-28 17:28:11', NULL)[0m
+  [4;36;1mDay Create (0.5ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:28:11', NULL, NULL, NULL, '2010-03-28 17:28:11', NULL, NULL, NULL)[0m
+  [4;36;1mDay Create (0.3ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:29:31', 'asdf', NULL, 1, '2010-03-28 17:29:31', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 17:29:31', NULL, '2010-03-28 17:29:31', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:29:31', NULL, NULL, 1, '2010-03-28 17:29:31', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.2ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 17:29:31', NULL, '2010-03-28 17:29:31', NULL)[0m
+  [4;36;1mDay Create (0.5ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:29:31', NULL, NULL, NULL, '2010-03-28 17:29:31', NULL, NULL, NULL)[0m
+  [4;36;1mDay Create (0.3ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:32:01', 'asdf', NULL, 1, '2010-03-28 17:32:01', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 17:32:01', NULL, '2010-03-28 17:32:01', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:32:01', NULL, NULL, 1, '2010-03-28 17:32:01', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.2ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 17:32:01', NULL, '2010-03-28 17:32:01', NULL)[0m
+  [4;36;1mDay Create (0.5ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:32:01', NULL, NULL, NULL, '2010-03-28 17:32:01', NULL, NULL, NULL)[0m
+  [4;36;1mDay Create (0.4ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:37:21', 'asdf', NULL, 1, '2010-03-28 17:37:21', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 17:37:21', NULL, '2010-03-28 17:37:21', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:37:21', NULL, NULL, 1, '2010-03-28 17:37:21', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.3ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 17:37:21', NULL, '2010-03-28 17:37:21', NULL)[0m
+  [4;36;1mDay Create (0.1ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:37:21', NULL, NULL, NULL, '2010-03-28 17:37:21', NULL, NULL, NULL)[0m
+  [4;36;1mDay Create (0.3ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:39:06', 'asdf', NULL, 1, '2010-03-28 17:39:06', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 17:39:06', NULL, '2010-03-28 17:39:06', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:39:06', NULL, NULL, 1, '2010-03-28 17:39:06', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.3ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 17:39:06', NULL, '2010-03-28 17:39:06', NULL)[0m
+  [4;36;1mDay Create (0.1ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:39:06', NULL, NULL, NULL, '2010-03-28 17:39:06', NULL, NULL, NULL)[0m
+  [4;36;1mDay Create (0.3ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:40:01', 'asdf', NULL, 1, '2010-03-28 17:40:01', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-03-28 17:40:01', NULL, '2010-03-28 17:40:01', NULL, NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:40:01', NULL, NULL, 1, '2010-03-28 17:40:01', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+  [4;35;1mLesson Create (0.3ms)[0m   [0mINSERT INTO "lessons" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 17:40:01', NULL, '2010-03-28 17:40:01', NULL)[0m
+  [4;36;1mDay Create (0.1ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 17:40:01', NULL, NULL, NULL, '2010-03-28 17:40:01', NULL, NULL, NULL)[0m
+  [4;36;1mUpload Create (0.3ms)[0m   [0;1mINSERT INTO "uploads" ("created_at", "updated_at", "upload_file_name", "upload_file_size", "upload_content_type", "upload_updated_at") VALUES('2010-03-28 18:21:41', '2010-03-28 18:21:41', NULL, NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mDay Create (0.3ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 18:22:02', 'asdf', NULL, 1, '2010-03-28 18:22:02', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mDay Load (0.2ms)[0m   [0mSELECT * FROM "days" LIMIT 1[0m
+  [4;36;1mUnit Create (0.3ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "description") VALUES('2010-03-28 18:22:03', NULL, '2010-03-28 18:22:03', NULL)[0m
+  [4;35;1mDay Create (0.1ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-03-28 18:22:03', NULL, NULL, 1, '2010-03-28 18:22:03', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mUnit Load (0.2ms)[0m   [0;1mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m
+
+
+Processing UnitsController#destroy (for 0.0.0.0 at 2010-04-04 11:26:04) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/units/1001
+Completed in 3ms (DB: 0) | 302 Found [http://test.host/units/37]
+
+
+Processing UnitsController#destroy (for 0.0.0.0 at 2010-04-04 11:26:04) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/units
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/units/1]
+
+
+Processing UnitsController#update (for 0.0.0.0 at 2010-04-04 11:26:04) [PUT]
+  Parameters: {"id"=>"37", "unit"=>{"these"=>"params"}}
+Rendering units/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/units/37?unit%5Bthese%5D=params]
+
+
+Processing UnitsController#update (for 0.0.0.0 at 2010-04-04 11:26:04) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering units/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/units/1]
+
+
+Processing UnitsController#update (for 0.0.0.0 at 2010-04-04 11:26:04) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering units/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/units/1]
+
+
+Processing UnitsController#update (for 0.0.0.0 at 2010-04-04 11:26:04) [PUT]
+  Parameters: {"id"=>"37", "unit"=>{"these"=>"params"}}
+Rendering units/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/units/37?unit%5Bthese%5D=params]
+
+
+Processing UnitsController#update (for 0.0.0.0 at 2010-04-04 11:26:04) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/units/1007
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/units/1]
+
+
+Processing UnitsController#update (for 0.0.0.0 at 2010-04-04 11:26:04) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/units/1008
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/units/1]
+
+
+Processing UnitsController#create (for 0.0.0.0 at 2010-04-04 11:26:04) [POST]
+  Parameters: {"unit"=>{"these"=>"params"}}
+Rendering units/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/units?unit%5Bthese%5D=params]
+
+
+Processing UnitsController#create (for 0.0.0.0 at 2010-04-04 11:26:04) [POST]
+  Parameters: {"unit"=>{}}
+Rendering units/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/units?]
+
+
+Processing UnitsController#create (for 0.0.0.0 at 2010-04-04 11:26:04) [POST]
+  Parameters: {"unit"=>{"these"=>"params"}}
+Redirected to http://test.host/units/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/units?unit%5Bthese%5D=params]
+
+
+Processing UnitsController#create (for 0.0.0.0 at 2010-04-04 11:26:04) [POST]
+  Parameters: {"unit"=>{}}
+Redirected to http://test.host/units/1012
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/units?]
+
+
+Processing UnitsController#edit (for 0.0.0.0 at 2010-04-04 11:26:04) [GET]
+  Parameters: {"id"=>"37"}
+Rendering units/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/units/37/edit]
+
+
+Processing UnitsController#new (for 0.0.0.0 at 2010-04-04 11:26:04) [GET]
+Rendering units/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/units/new]
+
+
+Processing UnitsController#show (for 0.0.0.0 at 2010-04-04 11:26:04) [GET]
+  Parameters: {"id"=>"37"}
+Rendering units/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/units/37]
+
+
+Processing DaysController#destroy (for 0.0.0.0 at 2010-04-04 11:26:04) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/days/1016
+Completed in 3ms (DB: 0) | 302 Found [http://test.host/days/37]
+
+
+Processing DaysController#destroy (for 0.0.0.0 at 2010-04-04 11:26:04) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/days
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/days/1]
+
+
+Processing DaysController#update (for 0.0.0.0 at 2010-04-04 11:26:04) [PUT]
+  Parameters: {"id"=>"37", "day"=>{"these"=>"params"}}
+Rendering days/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/days/37?day%5Bthese%5D=params]
+
+
+Processing DaysController#update (for 0.0.0.0 at 2010-04-04 11:26:04) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering days/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/days/1]
+
+
+Processing DaysController#update (for 0.0.0.0 at 2010-04-04 11:26:04) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering days/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/days/1]
+
+
+Processing DaysController#update (for 0.0.0.0 at 2010-04-04 11:26:04) [PUT]
+  Parameters: {"id"=>"37", "day"=>{"these"=>"params"}}
+Rendering days/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/days/37?day%5Bthese%5D=params]
+
+
+Processing DaysController#update (for 0.0.0.0 at 2010-04-04 11:26:04) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/days/1022
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/days/1]
+
+
+Processing DaysController#update (for 0.0.0.0 at 2010-04-04 11:26:04) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/days/1023
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/days/1]
+
+
+Processing DaysController#create (for 0.0.0.0 at 2010-04-04 11:26:04) [POST]
+  Parameters: {"day"=>{"these"=>"params"}}
+Rendering days/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/days?day%5Bthese%5D=params]
+
+
+Processing DaysController#create (for 0.0.0.0 at 2010-04-04 11:26:04) [POST]
+  Parameters: {"day"=>{}}
+Rendering days/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/days?]
+
+
+Processing DaysController#create (for 0.0.0.0 at 2010-04-04 11:26:04) [POST]
+  Parameters: {"day"=>{"these"=>"params"}}
+Redirected to http://test.host/days/1026
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/days?day%5Bthese%5D=params]
+
+
+Processing DaysController#create (for 0.0.0.0 at 2010-04-04 11:26:04) [POST]
+  Parameters: {"day"=>{}}
+Redirected to http://test.host/days/1027
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/days?]
+
+
+Processing DaysController#edit (for 0.0.0.0 at 2010-04-04 11:26:04) [GET]
+  Parameters: {"id"=>"37"}
+  [4;36;1mUnit Load (0.3ms)[0m   [0;1mSELECT * FROM "units" [0m
+Rendering days/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/days/37/edit]
+
+
+Processing DaysController#new (for 0.0.0.0 at 2010-04-04 11:26:04) [GET]
+  [4;35;1mUnit Load (0.1ms)[0m   [0mSELECT * FROM "units" [0m
+Rendering days/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/days/new]
+
+
+Processing DaysController#show (for 0.0.0.0 at 2010-04-04 11:26:04) [GET]
+  Parameters: {"id"=>"37"}
+Rendering days/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/days/37]
+  [4;36;1mUnit Create (0.4ms)[0m   [0;1mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-04-04 16:26:04', NULL, '2010-04-04 16:26:04', NULL, NULL)[0m
+  [4;35;1mDay Create (0.2ms)[0m   [0mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-04-04 16:26:04', 'asdf', NULL, 1, '2010-04-04 16:26:04', NULL, 'asdf', NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mDay Load (0.2ms)[0m   [0;1mSELECT * FROM "days" LIMIT 1[0m
+  [4;35;1mUnit Create (0.2ms)[0m   [0mINSERT INTO "units" ("created_at", "title", "updated_at", "subject", "description") VALUES('2010-04-04 16:26:04', NULL, '2010-04-04 16:26:04', NULL, NULL)[0m
+  [4;36;1mDay Create (0.1ms)[0m   [0;1mINSERT INTO "days" ("lesson_plan_file_size", "created_at", "title", "lesson_plan_file_name", "unit_id", "updated_at", "lesson_plan_content_type", "description", "lesson_plan_updated_at") VALUES(NULL, '2010-04-04 16:26:04', NULL, NULL, 1, '2010-04-04 16:26:04', NULL, NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;35;1mUnit Load (0.2ms)[0m   [0mSELECT * FROM "units" WHERE ("units"."id" = 1) [0m

@@ -41,6 +41,7 @@ class DaysController < ApplicationController
   end
 
   def edit
+    @units = Unit.all
   end
 
   def new
