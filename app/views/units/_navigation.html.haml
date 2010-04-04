@@ -1,0 +1,4 @@
+- content_for(:navigation) do
+  %ul.wat-cf
+    - @units.each do |u|
+      = link_to u.title, unit_path(u)

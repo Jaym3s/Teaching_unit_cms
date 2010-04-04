@@ -4,7 +4,7 @@
     %meta{ :content => "text/html; charset=utf-8", "http-equiv" => "Content-Type" }
     %title
       Sensei
-    = stylesheet_link_tag "web_app_theme", "web_app_theme_override", "themes/default/style", :cache => true
+    = stylesheet_link_tag "web_app_theme", "web_app_theme_override", "themes/reidb-greenish/style", :cache => true
   %body
     #container
       #header
@@ -23,7 +23,7 @@
               %a.logout{ :href => "/logout" }
                 = t("web-app-theme.logout", :default => "Logout")
         #main-navigation
-          %ul.wat-cf
+          = yield :navigation
       #wrapper.wat-cf
         .flash
           - flash.each do |type, message|
