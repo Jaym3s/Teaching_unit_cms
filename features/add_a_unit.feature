@@ -19,3 +19,8 @@ Feature: Add a unit
     And I should see "Add your first Day"
 
     When I follow "Add your first Day"
+    And I fill in "Title" with "First Day!"
+    And I fill in "Description" with "Description for first day!"
+    And I press "Save"
+    Then I should see "Monkey add new day"
+    And I should see "Add another Day"

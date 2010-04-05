@@ -6,22 +6,6 @@ describe UnitsController do
     @mock_unit ||= mock_model(Unit, stubs)
   end
 
-  # describe "GET index" do
-  #   it "assigns all units as @units" do
-  #     Unit.stub(:find).with(:all).and_return([mock_unit])
-  #     get :index
-  #     assigns[:units].should == [mock_unit]
-  #   end
-  # end
-
-  describe "GET show" do
-    it "assigns the requested unit as @unit" do
-      Unit.stub(:find).with("37").and_return(mock_unit)
-      get :show, :id => "37"
-      assigns[:unit].should equal(mock_unit)
-    end
-  end
-
   describe "GET new" do
     it "assigns a new unit as @unit" do
       Unit.stub(:new).and_return(mock_unit)

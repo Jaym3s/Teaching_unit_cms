@@ -1,5 +1,6 @@
 class Unit < ActiveRecord::Base
   validates_presence_of :title
+  has_many :days
 end
 
 # == Schema Info

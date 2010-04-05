@@ -25,7 +25,7 @@ describe Day do
     Day.first.should == day
   end
   it "should link to it's respective unit" do
-    unit = Unit.create!()
+    unit = Unit.create!(:title => "some title")
     day = Day.create!(:unit_id => unit)
     day.unit.should == unit
   end

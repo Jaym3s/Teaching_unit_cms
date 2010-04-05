@@ -16,4 +16,12 @@ describe Unit do
     unit.should_not be_valid
     unit.should have(1).error_on(:title)
   end
+  it "returns a collection of days associated with it" do
+    unit = Unit.create!(:title => "Test Unit 1")
+    unit2 = Unit.create!(:title => "test unit 2")
+    day1 = Day.create!(:title => "Day1", :unit => unit)
+    day2 = Day.create!(:title => "Day2", :unit => unit2)
+    day3 = Day.create!(:title => "Day3", :unit => unit)
+    unit.days.should == [day1, day3]
+  end
 end
