@@ -27,8 +27,8 @@
       #wrapper.wat-cf
         .flash
           - flash.each do |type, message|
-            .message.type
-              %p= message
+            %div{:class => "message #{type}"}
+              %h2= message
         #main
           = yield
         #footer.block

@@ -1,12 +1,11 @@
-%h2= "Unit \"#{@unit.to_param}\""
-- content_tag_for :div, @unit do
-  %ul
-    %li
-      %strong Title:
-      =h @unit.title
-    %li
-      %strong Description:
-      =h @unit.description
-%ul
-  %li= link_to 'Edit', edit_unit_path(@unit)
-  %li= link_to 'Back', units_path
+= render :partial => "navigation", :locals => {:unit => @unit}
+#block-list.block
+  .content
+    .inner
+      - content_tag_for :div, @unit do
+        %ul.list
+          %li
+            .left= link_to @unit.title, edit_unit_path(@unit)
+          %li
+            .item
+              %p=@unit.description

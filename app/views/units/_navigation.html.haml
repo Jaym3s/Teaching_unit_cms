@@ -1,4 +1,11 @@
 - content_for(:navigation) do
   %ul.wat-cf
+    -if @unit.blank?
+      %li.first.active= link_to "Dojo", root_path
+      -else
+        %li.first= link_to "Dojo", root_path
     - @units.each do |u|
-      = link_to u.title, unit_path(u)
+      - if u.eql?(@unit)
+        %li{:class => 'active'}= link_to truncate(u.title, :length => 15), unit_path(u)
+        - else
+          %li= link_to truncate(u.title, :length => 15), unit_path(u)

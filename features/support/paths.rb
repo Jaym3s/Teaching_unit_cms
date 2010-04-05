@@ -10,10 +10,7 @@ module NavigationHelpers
     
     when /the home\s?page/
       '/'
-    when /the new the_homepage page/
-      new_the_homepage_path
 
-    
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #
@@ -21,8 +18,17 @@ module NavigationHelpers
     #     user_profile_path(User.find_by_login($1))
 
     else
-      raise "Can't find mapping from \"#{page_name}\" to a path.\n" +
-        "Now, go and add a mapping in #{__FILE__}"
+      if path = match_rails_path_for(page_name)
+        path
+      else
+        raise "Can't find mapping from \"#{page_name}\" to a path.\n" +
+          "Now, go and add a mapping in #{__FILE__}"
+      end
+    end
+  end
+  def match_rails_path_for(page_name)
+    if page_name.match(/the (.*) page/)
+      return send "#{$1.gsub(" ", "_")}_path" rescue nil
     end
   end
 end

@@ -11,4 +11,9 @@ require 'spec_helper'
 
 describe Unit do
 
+  it "validates presence of Title" do
+    unit = Unit.new(:title => nil)
+    unit.should_not be_valid
+    unit.should have(1).error_on(:title)
+  end
 end

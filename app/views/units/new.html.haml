@@ -1,4 +1,6 @@
-%h2 New unit
-= render :partial => "form", :locals => {:unit => @unit}
-%ul
-  %li= link_to 'Back', units_path
+- content_for(:navigation) do
+  %ul.wat-cf
+    %li.first= link_to 'Home', root_path
+    %li.active= link_to 'New Unit', new_unit_path
+#block-forms.block
+  = render :partial => "form", :locals => {:unit => @unit}

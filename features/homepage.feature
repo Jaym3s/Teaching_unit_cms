@@ -6,3 +6,4 @@ Feature: The homepage
   Scenario: I am on the homepage
     Given I am on the home page
     Then I should see "Add a Unit"
+

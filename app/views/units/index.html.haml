@@ -2,7 +2,7 @@
 - if !@units.empty?
   .units
     = render :partial => "unit", :collection => @units
-    = render :partial => "navigation", :collection => @units
+    = render :partial => "navigation"
   = will_paginate(@units)
 - else
   %p There are no units to show yet.
