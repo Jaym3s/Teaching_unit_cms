@@ -3,7 +3,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :days
 
-  map.resources :units
+  map.resources :units, :has_many => [:days]
 
   map.root :controller => 'sensei'
   # The priority is based upon order of creation: first created -> highest priority.

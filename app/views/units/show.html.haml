@@ -5,7 +5,7 @@
     .inner
       %p=@unit.description
       - if @unit.days.empty?
-        %a.button{:href => "#{new_day_path}"}
+        %a.button{:href => new_unit_day_path(@unit)}
           = image_tag("web-app-theme/cross.png")
           Add your first Day
       - else
@@ -15,8 +15,12 @@
               %th.first Day
               %th Title
               %th Description
-          -@unit.days do |d|
+          -@unit.days.each do |d|
             %tr{:class => cycle("even", "odd")}
-              %td day number
+              %td day #
               %td= d.title
               %td= d.description
+        %a.button{:href => new_unit_day_path(@unit)}
+          = image_tag("web-app-theme/cross.png")
+          Add a Day
+      .clear

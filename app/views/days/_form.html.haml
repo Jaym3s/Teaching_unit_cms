@@ -1,20 +1,26 @@
-- form_for(day) do |f|
-  = f.error_messages
-  %p
-    = f.label :title
-    %br
-    = f.text_field :title
-  %p
-    = f.label :description
-    %br
-    = f.text_area :description
-  %p
-    = f.label :lesson_plan
-    %br
-    = f.file_field :lesson_plan
-  %p
-    = f.label :unit_id
-    %br
-    = f.select(:unit_id, @units.collect {|u| [u.title, u.id]})
-  %p
-    = f.submit "Submit"
+.content
+  %h2.title="Add a new day to #{day.unit.title}"
+  .inner
+    - form_for day, :html => { :class => 'form' } do |f|
+      .flash
+        .message.error= f.error_messages
+      .group
+        = f.label :title, nil, :class => "label"
+        = f.text_field :title, :class => "text_field"
+        %span.description Ex: Solving a Paradox
+      .group
+        = f.label :description, nil, :class => "label"
+        = f.text_area :description, :class => "text_area", :rows => "10"
+        %span.description Ex: Schrödinger's Cat is a Zombie!
+      .group
+        = f.label :lesson_plan, nil, :class => "label"
+        = f.file_field :lesson_plan, :class => "text_area", :rows => "10"
+        = f.hidden_field :unit_id, :value => day.unit.id
+
+      .group.navform.wat-cf
+        %button{:type => 'submit', :class => 'button'}
+          = image_tag("web-app-theme/tick.png")
+          Save!
+        %a.button{:href => ''}
+          = image_tag("web-app-theme/cross.png")
+          Cancel

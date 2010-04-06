@@ -6,51 +6,14 @@ describe DaysController do
     @mock_day ||= mock_model(Day, stubs)
   end
 
-  # describe "GET index" do
-  #   it "assigns all days as @days" do
-  #     Day.stub(:find).with(:all).and_return([mock_day])
-  #     get :index
-  #     assigns[:days].should == [mock_day]
-  #   end
-  # end
-
-  describe "GET show" do
-    it "assigns the requested day as @day" do
-      Day.stub(:find).with("37").and_return(mock_day)
-      get :show, :id => "37"
-      assigns[:day].should equal(mock_day)
-    end
-  end
-
-  describe "GET new" do
-    it "assigns a new day as @day" do
-      Day.stub(:new).and_return(mock_day)
-      get :new
-      assigns[:day].should equal(mock_day)
-    end
-  end
-
-  describe "GET edit" do
-    it "assigns the requested day as @day" do
-      Day.stub(:find).with("37").and_return(mock_day)
-      get :edit, :id => "37"
-      assigns[:day].should equal(mock_day)
-    end
-  end
-
   describe "POST create" do
 
     describe "with valid params" do
-      it "assigns a newly created day as @day" do
-        Day.stub(:new).with({'these' => 'params'}).and_return(mock_day(:save => true))
-        post :create, :day => {:these => 'params'}
-        assigns[:day].should equal(mock_day)
-      end
-
-      it "redirects to the created day" do
-        Day.stub(:new).and_return(mock_day(:save => true))
+      it "redirects to the day's unit show page" do
+        unit = mock_model(Unit)
+        Day.stub(:new).and_return(mock_day(:unit => unit, :save => true))
         post :create, :day => {}
-        response.should redirect_to(day_url(mock_day))
+        response.should redirect_to(unit_url(unit))
       end
     end
 

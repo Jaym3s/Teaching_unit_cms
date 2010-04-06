@@ -8,9 +8,9 @@ class DaysController < ApplicationController
     @day = Day.new(params[:day])
     respond_to do |format|
       if @day.save
-        flash[:notice] = 'Day was successfully created.'
-        format.html { redirect_to @day }
-        format.xml  { render :xml => @day, :status => :created, :location => @day }
+        flash[:notice] = 'Monkey add new day'
+        format.html { redirect_to @day.unit }
+        format.xml  { render :xml => @day, :status => :created, :location => @day.unit }
       else
         format.html { render :action => "new" }
         format.xml  { render :xml => @day.errors, :status => :unprocessable_entity }
@@ -21,7 +21,7 @@ class DaysController < ApplicationController
   def destroy
     respond_to do |format|
       if @day.destroy
-        flash[:notice] = 'Day was successfully destroyed.'        
+        flash[:notice] = 'Day was successfully destroyed.'
         format.html { redirect_to days_path }
         format.xml  { head :ok }
       else
@@ -45,8 +45,7 @@ class DaysController < ApplicationController
   end
 
   def new
-    @units = Unit.all
-    @day = Day.new
+    @day = Day.new(:unit => Unit.find(params[:unit_id]))
     respond_to do |format|
       format.html
       format.xml  { render :xml => @day }
