@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(:version => 20100328025447) do
     t.integer  "lesson_plan_file_size"
     t.datetime "lesson_plan_updated_at"
     t.integer  "unit_id"
+    t.integer  "day_number"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

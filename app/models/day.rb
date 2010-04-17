@@ -11,6 +11,7 @@ end
 #
 #  id                       :integer         not null, primary ke
 #  unit_id                  :integer
+#  day_number               :integer
 #  description              :text
 #  lesson_plan_content_type :string(255)
 #  lesson_plan_file_name    :string(255)

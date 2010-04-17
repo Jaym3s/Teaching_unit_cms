@@ -1,27 +1,6 @@
-%h2= "Day \"#{@day.to_param}\""
-- content_tag_for :div, @day do
-  %ul
-    %li
-      %strong Title:
-      =h @day.title
-    %li
-      %strong Description:
-      =h @day.description
-    %li
-      %strong Lesson plan file name:
-      =h @day.lesson_plan_file_name
-    %li
-      %strong Lesson plan content type:
-      =h @day.lesson_plan_content_type
-    %li
-      %strong Lesson plan file size:
-      =h @day.lesson_plan_file_size
-    %li
-      %strong Lesson plan updated at:
-      =h @day.lesson_plan_updated_at
-    %li
-      %strong Unit:
-      =h @day.unit_id
-%ul
-  %li= link_to 'Edit', edit_day_path(@day)
-  %li= link_to 'Back', days_path
+= render :partial => "partials/navigation", :locals => {:unit => @day.unit}
+#block-list.block
+  .content
+    %h2.title= link_to @day.title, edit_day_path(@day)
+    .inner
+      %p=@day.description

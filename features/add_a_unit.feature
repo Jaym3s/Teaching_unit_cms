@@ -24,5 +24,10 @@ Feature: Add a unit
     And I fill in "Description" with "Description for first day!"
     And I press "Save"
     Then I should see "Monkey add new day"
-    And I should see "Test Unit One"
+    And I should see "day #1"
+    And I should see "First Day!"
     And I should see "Add a Day"
+
+    When I follow "First Day!"
+    Then I should see "Test Unit One"
+    And I should see "Description for first day!"

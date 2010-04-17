@@ -12,6 +12,7 @@ require 'spec_helper'
 describe Unit do
 
   it "validates presence of Title" do
+    # should_validate_presence_of x
     unit = Unit.new(:title => nil)
     unit.should_not be_valid
     unit.should have(1).error_on(:title)
@@ -25,3 +26,15 @@ describe Unit do
     unit.days.should == [day1, day3]
   end
 end
+
+
+# == Schema Info
+#
+# Table name: units
+#
+#  id          :integer         not null, primary ke
+#  description :text
+#  subject     :string(255)
+#  title       :string(255)
+#  created_at  :datetime
+#  updated_at  :datetime

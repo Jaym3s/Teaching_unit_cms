@@ -46,6 +46,7 @@ class DaysController < ApplicationController
 
   def new
     @day = Day.new(:unit => Unit.find(params[:unit_id]))
+    @next_day = (Day.find_all_by_unit_id(params[:unit_id]).count) + 1
     respond_to do |format|
       format.html
       format.xml  { render :xml => @day }
@@ -53,6 +54,7 @@ class DaysController < ApplicationController
   end
 
   def show
+    @units = Unit.all
     respond_to do |format|
       format.html
       format.xml  { render :xml => @day }

@@ -8,6 +8,7 @@ class CreateDays < ActiveRecord::Migration
       t.integer :lesson_plan_file_size
       t.datetime :lesson_plan_updated_at
       t.integer :unit_id
+      t.integer :day_number
 
       t.timestamps
     end

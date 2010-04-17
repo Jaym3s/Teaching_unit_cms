@@ -1,4 +1,4 @@
-= render :partial => "navigation", :locals => {:unit => @unit}
+= render :partial => "partials/navigation", :locals => {:unit => @unit}
 #block-list.block
   .content
     %h2.title= link_to @unit.title, edit_unit_path(@unit)
@@ -17,8 +17,8 @@
               %th Description
           -@unit.days.each do |d|
             %tr{:class => cycle("even", "odd")}
-              %td day #
-              %td= d.title
+              %td.first= "day ##{d.day_number}"
+              %td=link_to d.title, day_path(d)
               %td= d.description
         %a.button{:href => new_unit_day_path(@unit)}
           = image_tag("web-app-theme/cross.png")
