@@ -2,7 +2,7 @@ require 'paperclip'
 class Day < ActiveRecord::Base
   has_attached_file :lesson_plan
   belongs_to :unit
-
+  has_many :uploads
 end
 
 # == Schema Info

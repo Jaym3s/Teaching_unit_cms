@@ -1,9 +1,10 @@
 .content
-  %h2.title="Add a new day to #{day.unit.title}"
+  %h2.title="New day for #{day.unit.title}"
   .inner
     - form_for day, :html => { :class => 'form' } do |f|
-      .flash
-        .message.error= f.error_messages
+      - if f.error_messages.present?
+        .flash
+          .message.error= f.error_messages
       .group
         = f.label :title, nil, :class => "label"
         = f.text_field :title, :class => "text_field"

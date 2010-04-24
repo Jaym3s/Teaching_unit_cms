@@ -45,6 +45,7 @@ class UnitsController < ApplicationController
   end
 
   def new
+    @units = Unit.all
     @unit = Unit.new
     respond_to do |format|
       format.html

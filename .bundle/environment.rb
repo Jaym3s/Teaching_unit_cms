@@ -143,8 +143,8 @@ end
 
 module Bundler
   LOCKED_BY    = '0.9.13'
-  FINGERPRINT  = "3029d353628633739e8b44ec2cfcf925459b7be8"
-  AUTOREQUIRES = {:default=>[["aws-s3", false], ["cucumber", false], ["cucumber-rails", false], ["haml", false], ["paperclip", false], ["rails", false], ["rspec-rails", false], ["sqlite3-ruby", false], ["thin", false], ["will_paginate", false]]}
+  FINGERPRINT  = "a67d56c674d38b217ecc4f9f478b979d9c01b4c3"
+  AUTOREQUIRES = {:default=>[["aws-s3", false], ["capybara", false], ["cucumber", false], ["cucumber-rails", false], ["database_cleaner", false], ["haml", false], ["paperclip", false], ["rails", false], ["rspec-rails", false], ["sqlite3-ruby", false], ["thin", false], ["will_paginate", false]]}
   SPECS        = [
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/rake-0.8.7/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/rake-0.8.7.gemspec", :name=>"rake"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/activesupport-2.3.5.gemspec", :name=>"activesupport"},
@@ -157,16 +157,23 @@ module Bundler
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/mime-types-1.16/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/mime-types-1.16.gemspec", :name=>"mime-types"},
         {:load_paths=>["/Users/jaymes/.bundle/ruby/1.8/gems/xml-simple-1.0.12/lib"], :loaded_from=>"/Users/jaymes/.bundle/ruby/1.8/specifications/xml-simple-1.0.12.gemspec", :name=>"xml-simple"},
         {:load_paths=>["/Users/jaymes/.bundle/ruby/1.8/gems/aws-s3-0.6.2/lib"], :loaded_from=>"/Users/jaymes/.bundle/ruby/1.8/specifications/aws-s3-0.6.2.gemspec", :name=>"aws-s3"},
+        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/culerity-0.2.9/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/culerity-0.2.9.gemspec", :name=>"culerity"},
+        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/nokogiri-1.4.1/lib", "/Library/Ruby/Gems/1.8/gems/nokogiri-1.4.1/ext"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/nokogiri-1.4.1.gemspec", :name=>"nokogiri"},
+        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/rack-test-0.5.3/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/rack-test-0.5.3.gemspec", :name=>"rack-test"},
+        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/ffi-0.6.3/lib", "/Library/Ruby/Gems/1.8/gems/ffi-0.6.3/ext"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/ffi-0.6.3.gemspec", :name=>"ffi"},
+        {:load_paths=>["/Users/jaymes/.bundle/ruby/1.8/gems/json_pure-1.2.4/lib"], :loaded_from=>"/Users/jaymes/.bundle/ruby/1.8/specifications/json_pure-1.2.4.gemspec", :name=>"json_pure"},
+        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/selenium-webdriver-0.0.17/common/src/rb/lib", "/Library/Ruby/Gems/1.8/gems/selenium-webdriver-0.0.17/firefox/src/rb/lib", "/Library/Ruby/Gems/1.8/gems/selenium-webdriver-0.0.17/chrome/src/rb/lib", "/Library/Ruby/Gems/1.8/gems/selenium-webdriver-0.0.17/jobbie/src/rb/lib", "/Library/Ruby/Gems/1.8/gems/selenium-webdriver-0.0.17/remote/client/src/rb/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/selenium-webdriver-0.0.17.gemspec", :name=>"selenium-webdriver"},
+        {:load_paths=>["/Users/jaymes/.bundle/ruby/1.8/gems/capybara-0.3.7/lib"], :loaded_from=>"/Users/jaymes/.bundle/ruby/1.8/specifications/capybara-0.3.7.gemspec", :name=>"capybara"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/diff-lcs-1.1.2/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/diff-lcs-1.1.2.gemspec", :name=>"diff-lcs"},
-        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/json_pure-1.2.3/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/json_pure-1.2.3.gemspec", :name=>"json_pure"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/polyglot-0.3.1/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/polyglot-0.3.1.gemspec", :name=>"polyglot"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/term-ansicolor-1.0.5/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/term-ansicolor-1.0.5.gemspec", :name=>"term-ansicolor"},
         {:load_paths=>["/Users/jaymes/.bundle/ruby/1.8/gems/treetop-1.4.5/lib"], :loaded_from=>"/Users/jaymes/.bundle/ruby/1.8/specifications/treetop-1.4.5.gemspec", :name=>"treetop"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/cucumber-0.6.4/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/cucumber-0.6.4.gemspec", :name=>"cucumber"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/cucumber-rails-0.3.0/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/cucumber-rails-0.3.0.gemspec", :name=>"cucumber-rails"},
         {:load_paths=>["/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib"], :loaded_from=>"/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/specifications/daemons-1.0.10.gemspec", :name=>"daemons"},
+        {:load_paths=>["/Users/jaymes/.bundle/ruby/1.8/gems/database_cleaner-0.5.2/lib"], :loaded_from=>"/Users/jaymes/.bundle/ruby/1.8/specifications/database_cleaner-0.5.2.gemspec", :name=>"database_cleaner"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/eventmachine-0.12.10/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/eventmachine-0.12.10.gemspec", :name=>"eventmachine"},
-        {:load_paths=>["/Library/Ruby/Gems/1.8/gems/haml-2.2.22/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/haml-2.2.22.gemspec", :name=>"haml"},
+        {:load_paths=>["/Users/jaymes/.bundle/ruby/1.8/gems/haml-2.2.23/lib"], :loaded_from=>"/Users/jaymes/.bundle/ruby/1.8/specifications/haml-2.2.23.gemspec", :name=>"haml"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/paperclip-2.3.1.1/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/paperclip-2.3.1.1.gemspec", :name=>"paperclip"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/rails-2.3.5.gemspec", :name=>"rails"},
         {:load_paths=>["/Library/Ruby/Gems/1.8/gems/rspec-1.3.0/lib"], :loaded_from=>"/Library/Ruby/Gems/1.8/specifications/rspec-1.3.0.gemspec", :name=>"rspec"},

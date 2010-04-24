@@ -1,9 +1,8 @@
-%h2 Listing units
-- if !@units.empty?
+- unless @units.empty?
   .units
     = render :partial => "unit", :collection => @units
-    = render :partial => "navigation"
+    = render :partial => "sensei/navigation"
   = will_paginate(@units)
 - else
   %p There are no units to show yet.
-= link_to 'New unit', new_unit_path
+  = link_to 'New unit', new_unit_path

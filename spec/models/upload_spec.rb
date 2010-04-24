@@ -19,6 +19,7 @@ end
 # Table name: uploads
 #
 #  id                  :integer         not null, primary ke
+#  day_id              :integer
 #  upload_content_type :string(255)
 #  upload_file_name    :string(255)
 #  upload_file_size    :integer

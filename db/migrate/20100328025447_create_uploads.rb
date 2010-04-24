@@ -5,6 +5,7 @@ class CreateUploads < ActiveRecord::Migration
       t.string :upload_file_name
       t.integer :upload_file_size
       t.datetime :upload_updated_at
+      t.integer :day_id
 
       t.timestamps
     end

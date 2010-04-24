@@ -37,6 +37,7 @@ ActiveRecord::Schema.define(:version => 20100328025447) do
     t.string   "upload_file_name"
     t.integer  "upload_file_size"
     t.datetime "upload_updated_at"
+    t.integer  "day_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

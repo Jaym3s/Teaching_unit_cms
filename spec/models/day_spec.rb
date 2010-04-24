@@ -29,8 +29,11 @@ describe Day do
     day = Day.create!(:unit_id => unit)
     day.unit.should == unit
   end
+  it "links to its uploads" do
+    day = Day.create!(@valid_attributes)
+    day.uploads.should == []
+  end
 end
-
 
 # == Schema Info
 #

@@ -2,5 +2,5 @@
   %ul.wat-cf
     - @units.each do |u|
       %li= link_to truncate(u.title, :length => 15), unit_path(u)
-    %li= link_to "Add a Unit", new_unit_path
+    %li.add= link_to "Add a Unit", new_unit_path
     

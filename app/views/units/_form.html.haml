@@ -2,8 +2,9 @@
   %h2.title Unit
   .inner
     - form_for unit, :html => { :class => 'form' } do |f|
-      .flash
-        .message.error= f.error_messages
+      - if f.error_messages.present?
+        .flash
+          .message.error= f.error_messages
       .group
         = f.label :title, nil, :class => "label"
         = f.text_field :title, :class => "text_field"
@@ -15,8 +16,8 @@
 
       .group.navform.wat-cf
         %button{:type => 'submit', :class => 'button'}
-          = image_tag("web-app-theme/tick.png")
+          = image_tag("icons/chat-japonais.png")
           Save!
         %a.button{:href => '#header'}
-          = image_tag("web-app-theme/cross.png")
+          = image_tag("icons/shuriken.png")
           Cancel

@@ -27,7 +27,6 @@ describe Unit do
   end
 end
 
-
 # == Schema Info
 #
 # Table name: units

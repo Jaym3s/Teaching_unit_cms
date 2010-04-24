@@ -4,13 +4,12 @@
     %meta{ :content => "text/html; charset=utf-8", "http-equiv" => "Content-Type" }
     %title
       Sensei
-    = stylesheet_link_tag "web_app_theme", "web_app_theme_override", "themes/reidb-greenish/style", :cache => true
+    = stylesheet_link_tag "web_app_theme", "web_app_theme_override", "themes/zen", :cache => true
   %body
     #container
       #header
-        %h1
-          %a{ :href => "/" }
-            Web App
+        %a{ :href => "/" }
+          %h1.logo Dojo
         #user-navigation
           %ul.wat-cf
             %li
@@ -31,9 +30,10 @@
               %h2= message
         #main
           = yield
+          %br/
+        #sidebar
+          / = render :partial => "layouts/sidebar"
         #footer.block
           %p
             Copyright &copy;
             = Time.now.year
-        #sidebar
-          = yield :sidebar
