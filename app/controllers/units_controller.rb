@@ -5,6 +5,7 @@ class UnitsController < ApplicationController
   UNITS_PER_PAGE = 20
 
   def create
+    @units = Unit.all
     @unit = Unit.new(params[:unit])
     respond_to do |format|
       if @unit.save
@@ -42,6 +43,7 @@ class UnitsController < ApplicationController
   end
 
   def edit
+    @units = Unit.all
   end
 
   def new

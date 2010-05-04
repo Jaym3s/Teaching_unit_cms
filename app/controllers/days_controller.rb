@@ -41,11 +41,14 @@ class DaysController < ApplicationController
   end
 
   def edit
+    @unit = @day.unit
     @units = Unit.all
   end
 
   def new
-    @day = Day.new(:unit => Unit.find(params[:unit_id]))
+    @units = Unit.all
+    @unit = Unit.find(params[:unit_id])
+    @day = Day.new(:unit => @unit)
     @next_day = (Day.find_all_by_unit_id(params[:unit_id]).count) + 1
     respond_to do |format|
       format.html
@@ -54,6 +57,7 @@ class DaysController < ApplicationController
   end
 
   def show
+    @unit = @day.unit
     @units = Unit.all
     respond_to do |format|
       format.html

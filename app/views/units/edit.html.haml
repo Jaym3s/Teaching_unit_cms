@@ -1,6 +1,4 @@
-%h2 Editing unit
+= render :partial => "partials/navigation", :locals => {:unit => @unit}
+
+%h2 #{@unit.title}
 = render :partial => "form", :locals => {:unit => @unit}
-%ul
-  %li= link_to 'Show', @unit
-  %li= link_to 'Back', units_path
-  %li= link_to 'Destroy', @unit, :confirm => 'Are you sure?', :method => :delete  

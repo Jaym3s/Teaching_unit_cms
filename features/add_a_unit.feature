@@ -6,7 +6,8 @@ Feature: Add a unit
   Scenario: add a new unit and first day from the homepage
     Given I am on the home page
     When I follow "Add a Unit"
-    And I should see "New Unit"
+    And I should see "Title"
+    And I should see "Description"
 
     When I press "Save"
     Then I should see "Oops! the monkey that was supposed to save your data started flinging poo everywhere!"
@@ -19,7 +20,7 @@ Feature: Add a unit
     And I should see "Add your first Day"
 
     When I follow "Add your first Day"
-    Then I should see "Add a new day to Test Unit One"
+    Then I should see "New day for Test Unit One"
     And I fill in "Title" with "First Day!"
     And I fill in "Description" with "Description for first day!"
     And I press "Save"

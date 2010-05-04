@@ -17,6 +17,7 @@ describe UnitsController do
   describe "GET edit" do
     it "assigns the requested unit as @unit" do
       Unit.stub(:find).with("37").and_return(mock_unit)
+      Unit.stub(:all).and_return([mock_unit])
       get :edit, :id => "37"
       assigns[:unit].should equal(mock_unit)
     end

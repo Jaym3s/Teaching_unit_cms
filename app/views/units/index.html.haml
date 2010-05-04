@@ -1,7 +1,7 @@
 - unless @units.empty?
   .units
     = render :partial => "unit", :collection => @units
-    = render :partial => "sensei/navigation"
+    = render :partial => "sensei/navigation", :locals => {:units => @units}
   = will_paginate(@units)
 - else
   %p There are no units to show yet.

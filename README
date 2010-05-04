@@ -1,12 +1,28 @@
 =================================== sensei ====================================
 ============================ an instructor's cms ==============================
 
-Day
--Lesson plan
+So far:
+
+- Unit
+  - Day
+    - Lesson plan
+    - files (hand-outs, audio, videos, smart-board projects,
+          powerpoint presentations, etc..)
+  - Day
+    - Lesson plan
+    - files ...
 
 
-Lesson
--all other media Media
+future:
 
-
+- Instructor
+  - Subject
+    - Unit
+      - Day
+        - Lesson plan
+        - files (hand-outs, audio, videos, smart-board projects,
+              powerpoint presentations, etc..)
+      - Day
+        - Lesson plan
+        - files ...
 
